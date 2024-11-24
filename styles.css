@@ -1,0 +1,61 @@
+/* styles.css */
+body {
+    font-family: 'Open Sans', sans-serif; /* 设置字体 */
+    margin: 0;
+    padding: 0;
+    background: url('image/1623398095_526209.jpg') no-repeat center center / cover fixed; /* 设置背景图片 */
+    color: #333;
+}
+
+header, footer {
+    background: rgba(74, 144, 226, 0.8); /* 设置头部和尾部背景颜色，半透明以便看到背景图片 */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.8); /* 设置主要内容区域背景颜色，半透明以便看到背景图片 */
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    font-size: 18px; /* 设置主要内容区域字体大小 */
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9em;
+}
+
+/* 添加一些动画 */
+nav ul li a:hover {
+    color: #EAEAEA;
+    transition: color 0.3s ease;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
