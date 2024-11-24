@@ -3,7 +3,7 @@ body {
     font-family: 'Open Sans', sans-serif; /* 设置字体 */
     margin: 0;
     padding: 0;
-    background: url('image/1623398095_526209.jpg') no-repeat center center / cover fixed; /* 设置背景图片 */
+    background: url('1623398095_526209.jpg') no-repeat center center / cover fixed; /* 设置背景图片 */
     color: #333;
 }
 
